@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./image.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./Script.js"></script>
+    <title>Previsão do Tempo</title>
+</head>
+
+<body>
+
+
+    <div class="big-box">
+        <input class="city" placeholder="Digite a cidade">
+        <button onclick="clickbutton()">
+            <img class="search" src="https://www.svgrepo.com/show/488200/find.svg" alt="search">
+        </button>
+
+        <div class="medium-box">
+            <h2 class="city-weather"></h2>
+            <p class="temperature"></p> <img class="icon" src="https://openweathermap.org/img/wn/04n.png"
+                alt="icon-temp">
+            <p class="climate"></p>
+        </div>
+
+        <div class="box-temperature">
+            <p class="temperaturemax"></p>
+            <p class="line-temp"> </p>
+            <p class="temperaturemin"></p>
+        </div>
+
+        <div class="box-sensation">
+            <p class="sensation"></p>
+        </div>
+
+
+
+        <div class="box-moisture-speed">
+            <p class="moisture"></p>
+            <p class="line"> </p>
+            <p class="speed"></p>
+        </div>
+
+
+        <p class="name">Previsão do Tempo</p>
+    </div>
+
+</body>
+
+</html>
